@@ -38,6 +38,9 @@ class TrainingConfig:
 
 
 
+
+
+
 @dataclass(frozen=True)
 class EvaluationConfig:
     path_of_model: Path
