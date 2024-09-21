@@ -1,6 +1,6 @@
-from cnnClassifier.config.configuration import ConfigurationManager
-from cnnClassifier.components.model_training import Training
-from cnnClassifier import logger
+from src.cnnClassifier.config.configuration import ConfigurationManager
+from src.cnnClassifier.components.model_training import Training
+from src.cnnClassifier import logger
 
 STAGE_NAME = "Prepare Base Model"
 
